@@ -1,0 +1,11 @@
+Node JS é um simples interpretador Javascript…
+
+
+Comando para testar a versão do Node
+
+node -v
+
+Comando para testar a versão do NPM
+npm -v
+
+
