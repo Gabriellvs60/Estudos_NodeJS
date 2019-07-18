@@ -1,0 +1,7 @@
+O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
+
+O express é minimalista, feito pra ser rápido a nível de desenvolvimento.
+
+é possível baixar o express através do npm
+
+npm install express --save
