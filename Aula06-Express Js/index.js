@@ -4,12 +4,13 @@ const app = express();
 
 //A rota é o caminho pra aplicação...
 app.get("/", function(req, res){
-    res.send("Seja Bem vindo ao meu app!");
+    //dirname retorna o diretorio absoluto do app
+    res.sendFile(__dirname + "/html/ind.html");
 });
 
 //rotas...
 app.get("/Sobre", function(req, res){
-    res.send("Minha página sobre");
+    res.sendFile(__dirname + "/html/sobre.html");;
 });
 
 //requisição e resposta
