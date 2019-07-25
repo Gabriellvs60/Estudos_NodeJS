@@ -1,3 +1,5 @@
 npm install --save sequelize
 
 npm install --save mysql2
+
+Um ORM abstrai toda a camada da base de dados, o Sequelize é capaz disso. Ele facilita bastante o trabalho
